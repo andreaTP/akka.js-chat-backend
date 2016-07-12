@@ -12,8 +12,8 @@ resolvers += Resolver.sonatypeRepo("snapshots")
 
 libraryDependencies += "eu.unicredit" %%% "akkajsactor" % "0.1.2-SNAPSHOT"
 
-scalaJSStage in Global := FastOptStage
+scalaJSStage := FastOptStage
 
-scalaJSUseRhino in Global := false
+scalaJSUseRhino := false
 
-scalaJSOutputWrapper := ("global.require = require;","eu.unicredit.Main.main();")
+scalaJSOutputWrapper := ("global.require = require;","""((typeof global === "object" && global && global["Object"] === Object) ? global : this)["eu"]["unicredit"]["Main"]().main();""")
