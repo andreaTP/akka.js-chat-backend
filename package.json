@@ -5,9 +5,9 @@
 	"name": "akkajs_node_backend",
 	"version": "0.0.1",
 	"description": "a chat backend that broadcast messages",
-	"main": "server.js",
+	"main": "sources/target/scala-2.11/akka-js_chat_backend-opt.js",
 	"scripts": {
-		"start": "node server.js"
+		"start": "node sources/target/scala-2.11/akka-js_chat_backend-opt.js"
 	},
 	"dependencies": {
 		"http": "^0.0.0",

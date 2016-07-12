@@ -1,0 +1,3 @@
+sources/target
+sources/project/project
+!sources/target/scala-2.11/akka-js_chat_backend-opt.js
