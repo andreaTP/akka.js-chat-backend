@@ -5,9 +5,9 @@
 	"name": "akkajs_node_backend",
 	"version": "0.0.1",
 	"description": "a chat backend that broadcast messages",
-	"main": "akka-js_chat_backend-opt.js",
+	"main": "server.js",
 	"scripts": {
-		"start": "node akka-js_chat_backend-opt.js"
+		"start": "node server.js"
 	},
 	"dependencies": {
 		"http": "^0.0.0",
