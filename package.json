@@ -1,0 +1,29 @@
+{
+	"//1": "describes your app and its dependencies",
+	"//2": "https://docs.npmjs.com/files/package.json",
+	"//3": "updating this file will download and update your packages",
+	"name": "akkajs_node_backend",
+	"version": "0.0.1",
+	"description": "a chat backend that broadcast messages",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"http": "^0.0.0",
+		"websocket": "^1.0.23"
+	},
+	"engines": {
+		"node": "4.4.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://hyperdev.com/#!/project/welcome-project"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"akkajs"
+	],
+	"license": "MIT"
+}
