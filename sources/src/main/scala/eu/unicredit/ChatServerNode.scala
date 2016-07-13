@@ -16,7 +16,7 @@ object ChatServerNode {
 
     val server = http.createServer((request: js.Dynamic, response: js.Dynamic) => {
         response.writeHead(200)
-        response.end("<h4>Please copy the url above.</h4>")
+        response.end("Please copy the url above.")
     })
 
     server.listen(g.process.env.PORT, () => {
