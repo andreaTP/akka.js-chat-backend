@@ -15,7 +15,7 @@ object ChatServerNode {
     val WebSocketServer = g.require("websocket").server
 
     val server = http.createServer((request: js.Dynamic, response: js.Dynamic) => {
-        response.writeHead(200)
+        response.writeHead(404)
         response.end("Please copy the url above.")
     })
 
